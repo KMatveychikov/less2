@@ -1,5 +1,7 @@
 package lesson2.homework;
 
+import java.util.Arrays;
+
 public class task4 {
 
     public static void main(String[] args) {
@@ -15,12 +17,14 @@ public class task4 {
             for (int value = 0; value < a.length; value++ ) {
                 if(row == value) {
                     a[row][value] = 1;
-                }
-                System.out.print(a[row][value]+" ");
-            }
-            System.out.println();
 
+                }
+
+            }
         }
+        System.out.print(Arrays.deepToString(a) + " ");
+
+
     }
 }
 

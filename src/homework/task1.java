@@ -1,5 +1,7 @@
 package lesson2.homework;
 
+import java.util.Arrays;
+
 public class task1 {
 
 
@@ -15,9 +17,11 @@ public class task1 {
             if (a[i] == 0){
                 a[i] = 1;
 
+            } else {
+                a[i]=0;
             }
-            System.out.println(a[i]);
-        }
 
+        }
+        System.out.println(Arrays.toString(a));
            }
 }

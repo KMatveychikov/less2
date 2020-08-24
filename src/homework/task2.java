@@ -1,5 +1,7 @@
 package lesson2.homework;
 
+import java.util.Arrays;
+
 public class task2 {
 
 
@@ -10,9 +12,7 @@ public class task2 {
         for (int i = 0; i < a.length; i++) {
             a[i] = b;
             b = a[i]+3;
-            System.out.println(a[i]);
-
-
         }
+        System.out.println(Arrays.toString(a));
     }
 }

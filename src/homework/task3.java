@@ -1,5 +1,7 @@
 package lesson2.homework;
 
+import java.util.Arrays;
+
 public class task3 {
 
     public static void main(String[] args) {
@@ -9,10 +11,10 @@ public class task3 {
             if (a[i] < 6) {
                 a[i] = a[i]*2;
             }
-            System.out.println(a[i]);
+
 
         }
-
+        System.out.println(Arrays.toString(a));
 
 
 
